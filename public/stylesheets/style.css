@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+}
+
+header {
+	text-align: center;
+	border-bottom: 1px solid rgb(150, 150, 150);
+}
+
+header#main img {
+	padding-bottom: 10px;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+header#main span {
+	position: relative;
+	top: 5px;
+	font-size: 2em;
+}
+
+ul {
+	list-style: none;
+	padding: 20px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+ul li {
+	position: relative;
+	display: inline-block;
+	background: white;
+	border: 1px solid rgb(220, 220, 220);
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.06);
+	margin-top: 10px;
+	margin-left: 8px;
+	margin-right: 8px;
+	vertical-align: top;
+}
+
+ul li div {
+	margin-top: -5px;
+	padding: 10px;
+	padding-bottom: 0px;
+
+	text-align: center;
+}
+
+ul li div button {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.item-titre {
+	font-size: 1.2em;
+	font-weight: 500;
+	line-height: 0px;
+}
+
+.bulle {
+	height: 26px;
+	box-sizing: border-box;
+	padding: 3px 5px 5px 5px;
+	font-size: 0.8em;
+	border-radius: 13px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.item-prix-vert {
+	color: green;
+	font-style: italic;
+}
+
+.icon {
+	vertical-align: middle;
+}
+
+.separateur-vertical {
+	height: 20px;
+}

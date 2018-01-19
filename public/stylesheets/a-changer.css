@@ -1,0 +1,50 @@
+header#soldes {
+	padding-top: 20px;
+	background-image: url("/images/banner.jpg");
+	background-position: center;
+	height: 120px;
+}
+
+.important-rouge {
+	color: white;
+	background: red;
+	font-style: italic;
+}
+
+.important-blanc {
+	background: white;
+	font-style: italic;
+}
+
+.gros-texte {
+	font-size: 3em;
+}
+
+ul li {
+	max-width: 200px;
+}
+
+.item-titre {
+
+}
+
+.item-solde {
+	background: red;
+	color: white;
+	font-style: italic;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.item-plus {
+	background: green;
+	color: white;
+	font-style: italic;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+	right: 10px;
+	left: inherit;
+}
+
+.item-prix-vert {
+	color: green;
+	font-style: italic;
+}
